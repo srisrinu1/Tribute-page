@@ -6,3 +6,87 @@ h4,
 blockquote {
     font-family: 'Roboto slab', serif;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+#main {
+    margin-top: 60px;
+    padding: 30px 20px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.Foot {
+    margin-top: 60px;
+    padding: 30px 20px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+}
+
+a {
+    color: #477ca7;
+}
+
+.hero-section {
+    margin: 0;
+    height: 650px;
+    color: #fff000;
+    background-color: #e4e4e4;
+    background-image: url("https://www.biography.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTcwMzk0MjM3ODAyNjUyODk2/gettyimages-104411905.jpg");
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+}
+
+@media (max-width: 769px) {
+    .hero-section {
+        margin: 0;
+        height: 400px;
+        color: #fff000;
+        background-color: #e4e4e4;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Gandhi_spinning.jpg/1280px-Gandhi_spinning.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
