@@ -35,7 +35,8 @@ li {
     margin-top: 60px;
     padding: 30px 20px;
     background-color: #A7F3D0;
-    border-radius: 5px;
+    border-radius: 51px;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -81,6 +82,7 @@ a {
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        border-radius: 5px;
     }
 }
 
@@ -117,4 +119,8 @@ blockquote {
 
 #img-caption {
     text-align: center;
+}
+
+.original .Change {
+    text-decoration: none;
 }
