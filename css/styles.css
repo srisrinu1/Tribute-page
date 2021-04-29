@@ -124,3 +124,8 @@ blockquote {
 .original .Change {
     text-decoration: none;
 }
+
+hr {
+    border: 1px solid #312E81;
+    border-radius: 5px;
+}
