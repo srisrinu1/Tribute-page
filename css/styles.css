@@ -11,7 +11,7 @@ html {
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 h1,
